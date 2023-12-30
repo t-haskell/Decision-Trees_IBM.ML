@@ -72,3 +72,7 @@ print(y_testset[0:5])
 from sklearn import metrics
 import matplotlib.pyplot as plt
 print("DecisionTree's Accuracy: ", metrics.accuracy_score(y_testset, predTree))
+
+## Visualization ##
+tree.plot_tree(drugTree)
+plt.show()
