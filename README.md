@@ -35,7 +35,7 @@ An example of a multiclass classification involving patients with the same illne
 
 - Split the dataset into training and testing sets.
 - Implement the Decision Tree algorithm with specified parameters.
-- Evaluate model accuracy on the testing set.
+- Evaluate model accuracy on the testing set with "accuracy_score" in the metrics module of sklearn.
 
 ## Visualization
 
@@ -47,5 +47,5 @@ An example of a multiclass classification involving patients with the same illne
 ## Results
 
 - Compare the predicted values with actual values.
-- Analyze the accuracy of the Decision Tree model.
+- Based upon subset accuracy of predicted labels matching actual values, computed accuracy of this tree is 0.983
 
