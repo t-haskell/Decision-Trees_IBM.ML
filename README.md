@@ -41,6 +41,7 @@ An example of a multiclass classification involving patients with the same illne
 
 - Visualize the trained Decision Tree to gain insights into the classification process.
 ![image](https://github.com/t-haskell/Decision-Trees_IBM.ML/blob/master/DecisionTree.png?raw=true)
+(Each index of the "value" array is the different categories of classification, thus leaf nodes have only ONE non-zero value in the array)
 
 ## Results
 
