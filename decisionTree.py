@@ -55,6 +55,7 @@ y[0:5]
 
 ## Setting up Decision Tree ##
 from sklearn.model_selection import train_test_split
+# Test/Train Split
 X_trainset, X_testset, y_trainset, y_testset = train_test_split(X, y, test_size=0.3, random_state=3)
 print('Shape of X training set{}'.format(X_trainset.shape),'&', ' Size of Y training set {}'.format(y_trainset.shape))
 print('Shape of X testing set{}'.format(X_testset.shape),'&', ' Size of Y testing set {}'.format(y_testset.shape))
